@@ -1,2 +1,2 @@
-# Linux-
-Linux系统编程学习记录
+# Linux C++
+Linux C++学习记录
