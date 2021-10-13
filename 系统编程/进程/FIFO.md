@@ -108,4 +108,3 @@ mkfifo fifo
 prw-r--r-- 1 root root 0 Oct 14 00:13 fifo
 ```
 
-## 共享存储映射
