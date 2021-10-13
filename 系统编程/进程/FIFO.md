@@ -90,4 +90,22 @@ int main(int ac, char *av[])
 
     return 0;
 }
+
+**过程**
+
+```C
+// 创建fifo文件
+mkfifo fifo 
+    
+// 运行程序，需要指定文件 
+./write fifo     
+./read fifo 
 ```
+
+**FIFO文件类型**
+
+```C
+prw-r--r-- 1 root root 0 Oct 14 00:13 fifo
+```
+
+## 共享存储映射
