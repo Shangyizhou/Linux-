@@ -85,6 +85,7 @@
 
 ![image-20211015222942231](https://syz-picture.oss-cn-shenzhen.aliyuncs.com/image-20211015222942231.png)
 
+**阻塞I/O、I/O复用和信号驱动I/O都是同步I/O模型，因为在这三种I/O模型中，I/O的读写操作，都是在I/O事件发生之后， 由应用程序来完成的。**
 ## 钓鱼的例子
 
 参考CSDN老哥的例子
