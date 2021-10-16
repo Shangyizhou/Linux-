@@ -14,3 +14,5 @@ Linux C++学习记录
 #### [套接字协议与类型](https://github.com/Shangyizhou/Linux-CPP-/blob/main/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E5%A5%97%E6%8E%A5%E5%AD%97%E7%B1%BB%E5%9E%8B%E4%B8%8E%E5%8D%8F%E8%AE%AE.md)
 #### [数据序列](https://github.com/Shangyizhou/Linux-CPP-/blob/main/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E6%95%B0%E6%8D%AE%E5%BA%8F%E5%88%97.md)
 #### [分配IP地址的函数](https://github.com/Shangyizhou/Linux-CPP-/blob/main/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E5%88%86%E9%85%8DIP%E5%9C%B0%E5%9D%80%E7%9A%84%E5%87%BD%E6%95%B0.md)
+### I/O复用
+#### [select](https://github.com/Shangyizhou/Linux-CPP-/blob/main/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/IO%E5%A4%8D%E7%94%A8/select/select.md)
