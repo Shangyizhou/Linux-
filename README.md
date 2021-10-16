@@ -10,3 +10,5 @@ Linux C++学习记录
 ## 网络编程
 #### [TCP/ICP网络编程](https://github.com/riba2534/TCP-IP-NetworkNote)
 #### [五种IO模型详解](https://github.com/Shangyizhou/Linux-CPP-/blob/main/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E4%BA%94%E7%A7%8DIO%E6%A8%A1%E5%9E%8B%E8%AF%A6%E8%A7%A3.md)
+#### [socket编程](https://github.com/Shangyizhou/Linux-CPP-/blob/main/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/socket%E7%BC%96%E7%A8%8B.md)
+#### [套接字协议与类型](https://github.com/Shangyizhou/Linux-CPP-/blob/main/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E5%A5%97%E6%8E%A5%E5%AD%97%E7%B1%BB%E5%9E%8B%E4%B8%8E%E5%8D%8F%E8%AE%AE.md)
