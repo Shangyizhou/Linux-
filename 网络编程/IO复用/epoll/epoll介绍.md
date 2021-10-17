@@ -1,6 +1,6 @@
-### epoll函数
+## epoll函数
 
-#### **epoll_create**
+### **epoll_create**
 
 select直接声明了fd_set遍历保存监视文件描述符，而epoll的则由操作系统负责，需要向操作系统请求创建保存文件描述符的空间。
 
@@ -17,7 +17,7 @@ size：epoll 实例的大小
 
 该函数返回文件描述符，我们正常像socket一样操作
 
-#### epoll_event结构体
+### epoll_event结构体
 
 epoll 方式通过如下结构体 epoll_event **将发生变化的文件描述符**单独集中在一起。（不像select，全部文件描述符都循环监视一遍）
 
@@ -42,7 +42,7 @@ event.events = EPOLLIN; //需要读取数据的情况
 event.data.fd = serv_sock;
 ```
 
-#### **epoll_ctl**
+### **epoll_ctl**
 
 ```C
 #include <sys/epoll.h>
@@ -79,7 +79,7 @@ epoll_ctl(A,EPOLL_CTL_DEL,B,NULL); // 从 epoll 例程 A 中删除文件描述�
 - EPOLLET：以边缘触发的方式得到事件通知
 - EPOLLONESHOT：发生一次事件后，相应文件描述符不再收到事件通知。因此需要向 epoll_ctl 函数的第二个参数传递 EPOLL_CTL_MOD ，再次设置事件。
 
-#### epoll_wait
+### epoll_wait
 
 ```C
 #include <sys/epoll.h>
@@ -109,7 +109,7 @@ event_cnt=epoll_wait(epfd,ep_events,EPOLL_SIZE,-1);
 
 保存发生事件的文件描述符集合的结构体地址值，我们只给他分配空间，在等待时传入，如果某些文件描述符变化，则他们会被保存在events中，我们再循环访问events，注意，里面只有变化的文件描述符
 
-###  基于select的I/O复用技术速度慢的原因
+##  基于select的I/O复用技术速度慢的原因
 
 之前实现了基于 select 的 I/O 复用技术服务端，其中有不合理的设计如下：
 
@@ -124,12 +124,12 @@ event_cnt=epoll_wait(epfd,ep_events,EPOLL_SIZE,-1);
 
 > 仅向操作系统传递一次监视对象，监视范围或内容发生变化时只通知发生变化的事项
 
-### 使用epoll优点
+## 使用epoll优点
 
 - 无需编写以监视状态变化为目的的针对所有文件描述符的循环语句
 - 调用对应于 select 函数的 epoll_wait 函数时无需每次传递监视对象信息。
 
-### select和epoll的区别
+## select和epoll的区别
 
 - select 函数中为了保存监视对象的文件描述符，直接声明了 fd_set 变量，但 epoll 方式下的**操作系统负责保存监视对象文件描述符**，因此需要向操作系统请求创建保存文件描述符的空间，此时用的函数就是 epoll_create 。
 - select 方式中需要 FD_SET、FD_CLR 函数。但在 epoll 方式中，通过 epoll_ctl 函数请求操作系统完成。
