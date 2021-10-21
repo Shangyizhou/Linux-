@@ -10,13 +10,13 @@ Linux C++学习记录Cancel changes
 
 ### 多进程编程
 
-[进程介绍]([Linux-CPP-/进程.md at main · Shangyizhou/Linux-CPP- (github.com)](https://github.com/Shangyizhou/Linux-CPP-/blob/main/系统编程/进程.md))
+[进程介绍](https://github.com/Shangyizhou/Linux-CPP-/blob/main/系统编程/进程.md)
 
-[fork]([Linux-CPP-/fork.md at main · Shangyizhou/Linux-CPP- (github.com)](https://github.com/Shangyizhou/Linux-CPP-/blob/main/系统编程/fork.md))
+[fork](https://github.com/Shangyizhou/Linux-CPP-/blob/main/系统编程/fork.md)
 
-[回收子进程]([Linux-CPP-/回收进程（僵尸进程、孤儿进程）.md at main · Shangyizhou/Linux-CPP- (github.com)](https://github.com/Shangyizhou/Linux-CPP-/blob/main/系统编程/回收进程（僵尸进程、孤儿进程）.md))
+[回收子进程](https://github.com/Shangyizhou/Linux-CPP-/blob/main/系统编程/回收进程（僵尸进程、孤儿进程）.md)
 
-[exec函数族]([Linux-CPP-/exec函数族.md at main · Shangyizhou/Linux-CPP- (github.com)](https://github.com/Shangyizhou/Linux-CPP-/blob/main/系统编程/exec函数族.md))
+[exec函数族](https://github.com/Shangyizhou/Linux-CPP-/blob/main/系统编程/exec函数族.md)
 
 ### 进程间通信
 
