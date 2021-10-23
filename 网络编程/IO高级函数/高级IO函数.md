@@ -75,9 +75,9 @@ dup2(int file_descriptor_one,int file_descriptor_two)
 
 有时我们希望把标准输入重定向到一个文件，或者把标准输出重定向到一个网络连接（比如CGI编程）。这可以通过下面的用于复制文件描述符的dup或dup2函数来实现
 
-> **Demo**
+### 案例
 
-[dup.c](dup.c)
+[dup.cpp](dup.md)
 
 我们先关闭标准输出文件描述符 STDOUT_FILENO（其值是1），然后复制socket文件描述符connfd。 因为dup总是返回系统中最小的可用文件描述符，所以它的返回值实际上是1，即之前关闭的标准输出文件描述符的值。这样一来，服务器输 出到标准输出的内容（这里是“abcd”）就会直接发送到与客户连接对应的socket上，因此printf调用的输出将被客户端获得（而不是显示在服务器程序的终端上）。这就是CGI服务器的基本工作原理
 
@@ -101,7 +101,9 @@ ssize_t writev(int fd,const struct iovec*vector,int count);
 */
 ```
 
-## 案例
+### 案例
+
+[writev.cpp](writev.md)
 
 当Web服务器解析完一个HTTP请求之后，如果目标文档存在且客户具有读取该文档的权限，那么就需要发送一个HTTP应答来传输该文档。
 
@@ -110,8 +112,6 @@ ssize_t writev(int fd,const struct iovec*vector,int count);
 其中，前3部分的内容可能被Web服务器放置在一块内存中，而文档的内容则通常被读入到另外一块单独的内存中（通过read函数或mmap函数）。
 
 我们并不需要把这两部分内容拼接到一起再发送，而是可以使用writev函数将它们同时写出
-
-[writev.cpp](writev.md)
 
 ## sendfile
 
@@ -139,7 +139,7 @@ count);
 - 而`out_fd`则必须是一个socket。
 - **以上特性显示，sendfile几乎是专门为在网络上传输文件而设计的。**
 
-## 案例
+### 案例
 
 我们将目标文件作为第3个参数传递给服务器程 序，客户telnet到该服务器上即可获得该文件。**相比以前，本程序没有为目标文件分配任何用户空间的缓存，也没有执行读取文件的操作，但同样实现了文件的发送，其效率显然要高得多**
 
@@ -202,7 +202,7 @@ ssize_t splice(int fd_in, loff_t *off_in, int fd_out, loff_t *off_out, size_t le
 
 使用splice函数时，fd_in和fd_out必须至少有一个是管道文件描述符。
 
-## 案例
+### 案例
 
 [splice.cpp](splice.md)
 
@@ -227,7 +227,7 @@ ssize_t tee(int fd_in,int fd_out,size_t len,unsigned int flags);
 */
 ```
 
-## 案例
+### 案例
 
 [tee.cpp](tee.md)
 
