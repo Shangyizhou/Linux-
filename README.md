@@ -47,6 +47,10 @@ Linux C++学习记录Cancel changes
 
 [分配IP地址的函数](https://github.com/Shangyizhou/Linux-CPP-/blob/main/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E5%88%86%E9%85%8DIP%E5%9C%B0%E5%9D%80%E7%9A%84%E5%87%BD%E6%95%B0.md)
 
+### 高级IO函数
+
+[高级IO函数](https://github.com/Shangyizhou/Linux-CPP-/blob/main/网络编程/IO高级函数/高级IO函数.md)
+
 ### Linux高性能服务器框架(总览)
 
 [Linux高性能服务器框架(总览)](https://github.com/Shangyizhou/Linux-CPP-/blob/main/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E9%AB%98%E6%80%A7%E8%83%BD%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%A8%8B%E5%BA%8F%E6%A1%86%E6%9E%B6.md)
