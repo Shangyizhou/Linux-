@@ -18,7 +18,7 @@ Linux C++学习记录Cancel changes
 
 [exec函数族](https://github.com/Shangyizhou/Linux-CPP-/blob/main/系统编程/exec函数族.md)
 
-### 进程间通信
+**进程间通信**
 
 [进程间通信](https://github.com/Shangyizhou/Linux-CPP-/blob/main/%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B/%E8%BF%9B%E7%A8%8B/%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1.md)
 
@@ -29,6 +29,8 @@ Linux C++学习记录Cancel changes
 [共享存储映射](https://github.com/Shangyizhou/Linux-CPP-/blob/main/%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B/%E8%BF%9B%E7%A8%8B/%E5%85%B1%E4%BA%AB%E5%AD%98%E5%82%A8%E6%98%A0%E5%B0%84.md)
 
 [信号量]([Linux-CPP-/信号量.md at main · Shangyizhou/Linux-CPP- (github.com)](https://github.com/Shangyizhou/Linux-CPP-/blob/main/系统编程/信号量/信号量.md))
+
+### 多线程编程
 
 
 
@@ -72,4 +74,9 @@ Linux C++学习记录Cancel changes
 [统一事件源](https://github.com/Shangyizhou/Linux-CPP-/blob/main/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E4%BF%A1%E5%8F%B7/%E7%BB%9F%E4%B8%80%E4%BA%8B%E4%BB%B6%E6%BA%90.md)
 
 ### 定时器
+
+## 其他好文（可以整理）
+
+- [(139条消息) C/C++中sizeof()的用法——32位和64位下的sizeof（）_zlh869642570的博客-CSDN博客](https://blog.csdn.net/zlh869642570/article/details/77367108)
+- [[粉丝问答6\]子进程进程的父进程关系 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/337169038)
 
