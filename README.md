@@ -28,7 +28,7 @@ Linux C++学习记录Cancel changes
 
 [共享存储映射](https://github.com/Shangyizhou/Linux-CPP-/blob/main/%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B/%E8%BF%9B%E7%A8%8B/%E5%85%B1%E4%BA%AB%E5%AD%98%E5%82%A8%E6%98%A0%E5%B0%84.md)
 
-[信号量]([Linux-CPP-/信号量.md at main · Shangyizhou/Linux-CPP- (github.com)](https://github.com/Shangyizhou/Linux-CPP-/blob/main/系统编程/信号量/信号量.md))
+[信号量] ([Linux-CPP-/信号量.md at main · Shangyizhou/Linux-CPP- (github.com)](https://github.com/Shangyizhou/Linux-CPP-/blob/main/系统编程/信号量/信号量.md))
 
 
 
