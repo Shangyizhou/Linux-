@@ -32,6 +32,8 @@ Linux C++学习记录Cancel changes
 
 ### 多线程编程
 
+[线程总览](./系统编程/线程/线程（总览）.md)
+
 [线程简介]([Linux-CPP-/系统编程/线程 at main · Shangyizhou/Linux-CPP- (github.com)](https://github.com/Shangyizhou/Linux-CPP-/tree/main/系统编程/线程))
 
 ## 网络编程
